@@ -1,0 +1,55 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("./pexels-photo-8197540.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+}
+
+#heading {
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+
+
+form {
+    background: rgba(17, 17, 109, 0.9);
+    color: white;
+    line-height: 1;
+    padding: 2em;
+    margin: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+
+
+
+input,
+button,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+
+#input-textarea {
+    min-height: 120px;
+    width: 93.6%;
+    padding: 0.625rem;
+    resize: vertical;
+}
